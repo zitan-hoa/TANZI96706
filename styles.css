@@ -1,0 +1,211 @@
+header{
+    font-family: monserrat;
+    background: #F4BE38;
+    text-align: center;
+    padding:2rem;
+}
+
+footer { 
+    background: #587529;
+    padding:5px;
+    text-align: center;
+}
+
+.footerlinks a {
+    color: black;
+    text-decoration: none;
+} /*used to target the external links of the footer*/
+
+main {
+    margin-bottom: 20px;
+} /*to create a gap between the main from the nav and the footer*/
+
+nav {
+    text-align: center;
+    padding: 30px;
+    background: #EDDA5E;
+    gap:50px;
+    margin-bottom: 20px;
+}
+
+nav a {
+    border-radius: 5px;
+    background-color: aliceblue;
+    color: black;
+    padding:10px;
+    text-decoration:none; /*makes it so there is no underline beneath the text*/
+}
+
+a:hover{
+    font-size: 20px;
+} /*increase the size of the button when the cursor is hovering over it*/
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin:0;
+    background: #71951E;
+    padding-bottom: 60px;
+}
+
+.firstimg {
+    width: 100%;
+    height: 600px;
+}
+
+.textbox {
+    background: white;
+    padding:15px;
+    border-radius: 50px;
+    text-align: center;
+    position:absolute; /*a placed relative to the nearest positioned ancestor*/
+    top:50%;
+    left:300px;
+    width: 60%;
+}
+
+.smallbox {
+    text-decoration: none;
+}
+
+.places{
+    display: flex; /*used to arraged items horizontally*/
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content:center; /*so items remain in the center in a straight line*/
+    padding: 15px;
+}
+
+.placeboxes{
+    background-color: white;
+    padding:15px;
+    border-radius: 15px;
+    width:40%;
+    text-align: center;
+}
+
+.boximg {
+    height: 300px;
+    width: 500px;
+    padding: 15px;
+}
+
+.attraction{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding:15px;
+}
+
+.attractionbox {
+    background-color: white;
+    padding:15px;
+    border-radius: 15px;
+    width:40%;
+    text-align: center;
+}
+
+.Cuisine{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content:center;
+    padding:15px;
+}
+
+.Cuisinebox {
+    background-color: white;
+    padding:15px;
+    border-radius: 15px;
+    width:40%;
+    text-align: center;
+}
+
+.contactbox {
+    background-color: white;
+    padding:15px;
+    border-radius: 15px;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contactbox label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contactbox textarea {
+    height: 100px;
+    width: 500px;
+}
+
+.contactbox .buttons {
+    margin-bottom: 10px;
+}
+
+.submittedbox {
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    height:400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.submittedbox a {
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+.darkmode {
+    background-color: #222222;
+    color: white;
+}
+
+.darkmode header {
+    background-color: #333333;
+}
+
+.darkmode nav {
+    background-color: #444444;
+}
+
+.darkmode nav a {
+    background-color: #555555;
+    color: white;
+}
+
+.darkmode footer {
+    background-color: #333333;
+}
+
+.darkmode .contactbox, .darkmode .submittedbox, .darkmode .placeboxes, .darkmode .attractionbox, .darkmode .Cuisinebox, .darkmode .textbox {
+    background-color: #444444;
+    color: white;
+} /*targets all the specific boxes to make them the color i have changed*/
+
+.searchbox {
+    text-align: center;
+}
+
+.backtotopbutton {
+    display: none;
+    position: fixed;
+    background-color: #F4BE38;
+    bottom: 20px;
+    right: 20px;
+    color: black;
+    padding: 12px;
+    border-radius: 15px;
+    cursor: pointer;
+}

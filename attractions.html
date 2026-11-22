@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tourist Website</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>Top Attractions in Brunei</h1>
+            <p>Best places to go to experience Brunei</p>
+            <button class="theme-toggle" id="ThemeToggle" type="button">Dark mode</button>
+        </header>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="discoverpage.html">Discover</a>
+            <a href="attractions.html">Attractions</a>
+            <a href="Cuisine.html">Local Cuisine</a>
+            <a href="contacts.html">Contacts</a>
+        </nav>
+
+        <main>
+            <div class="searchbox">
+                <label for="search"> Search Bar:</label>
+                <input id="searchbar" class="searchbar" onkeyup="searchbar()" placeholder="Search Attractions">
+            </div>
+
+            <section id="attraction" class="attraction">
+                <div class="attractionbox">
+                    <h2>Omar Ali Saifuddien Mosque</h2>
+                    <img src="pictures/Mosque.png" class="boximg">
+                    <p>It is the national icon of Brunei with its beautiful architecture </p>
+                </div>
+                <div class="attractionbox">
+                    <h2>Royal Regalia Museum</h2>
+                    <img src="pictures/Museum.png" class="boximg">
+                    <p>Filled with many of Burnei's historical items </p>
+                </div>
+                <div class="attractionbox">
+                    <h2>Istana Nurul Iman</h2>
+                    <img src="pictures/Istana.png" class="boximg">
+                    <p>The palace of the Sultan of Brunei Darussalam </p>
+                </div>
+                <div class="attractionbox">
+                    <h2>Tasek Lama Recreational Park</h2>
+                    <img src="pictures/Tasek.png" class="boximg">
+                    <p>A rainforest park in the jungle with waterfalls </p>
+                </div>
+            </section>
+            <button type="button" onclick="topfunction()" class="backtotopbutton" title="backtotop">Back to top</button>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Brunei Tourism Page</p>
+            <p>Helpful sites to visit Brunei</p>
+            <div class="footerlinks">
+            <li><a href="https://www.flyroyalbrunei.com/brunei/en/">Royal Brunei Airlines</a></li>
+            <li><a href="https://www.bruneitourism.com/">Brunei's Official Tourism Website</a></li>
+            <li><a href="https://www.booking.com/country/bn.en-gb.html?aid=356980&label=gog235jc-10CAIoggI46AdIM1gDaB2IAQGYATO4ARfIAQzYAQPoAQH4AQGIAgGoAgG4AraWjNgGwAIB0gIkOTczYmU0ZDAtZThkMC00NjA4LTgxYzItOGIyN2Y4ZjFiY2Qx2AIB4AIB&sid=225e8e8c753843fdcd1a8a90613e0b02&keep_landing=1&">Brunei's hotel booking website</a></li>
+            </div>
+            </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
